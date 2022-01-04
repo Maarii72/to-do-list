@@ -1,3 +1,12 @@
+var input = document.querySelector("#tarefa");
+var tarefa = input.value;
+
+document.getElementById("submit").addEventListener("click",function listar(){
+document.getElementById("item").innerHTML = tarefa;
+});
+
+
+/*
 var currentNumber = 0;
 
 document.getElementById("adicionar").addEventListener("click",function increment(){
@@ -38,3 +47,4 @@ document.getElementById("subtrair").addEventListener("click",function increment(
 
   
 });
+*/
