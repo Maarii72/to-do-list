@@ -1,0 +1,45 @@
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  color: rgb(168, 76, 99);
+  font-weight: 600;
+  font-size: 30pt;
+}
+
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span{
+  padding: 10px;
+  font-size: 20pt;
+  font-weight: 600;
+  color: rgb(105, 89, 99);
+}
+
+body{
+  background-color: rgb(201, 199, 202);
+}
+
+button{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: 1px solid rgb(175, 105, 105);
+  font-size: 24pt;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(105, 89, 99);
+  cursor: pointer;
+}
+button:hover{ 
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
+
