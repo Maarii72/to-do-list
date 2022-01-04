@@ -6,14 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/styles.css" />
   
-  <title>Contador</title>
+  <title>to-do list</title>
 </head>
 <body>
-  <h1>Contador</h1>
+  <h1>To-do list</h1>
   <div>
-    <button id="subtrair">-</button>
-    <span id="currentNumber">0</span>
-    <button id="adicionar">+</button>
+    <input type="text" name="tarefa" id="tarefa">
+    <input type="submit" placeholder="Digite uma tarefa" value="Adicionar">
+  </div>
+  <div id="list">
+    <ul>
+      <li>
+        <input type="checkbox" name="" id="check">
+        Tarefa
+      </li>
+    </ul>
+    
   </div>
   <script src="assets/js/scripts.js"></script>
 </body>
